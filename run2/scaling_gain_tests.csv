@@ -1,0 +1,145 @@
+scenario,test_size,model,metric,scaling_vs_none,delta_mean,p_value,significant_0_05,t_stat
+binary,0.3,DT,accuracy,standard,0.0,,False,
+binary,0.3,DT,accuracy,minmax,0.0,,False,
+binary,0.3,DT,accuracy,robust,0.0,,False,
+binary,0.3,DT,f1_weighted,standard,0.0,,False,
+binary,0.3,DT,f1_weighted,minmax,0.0,,False,
+binary,0.3,DT,f1_weighted,robust,0.0,,False,
+binary,0.3,DT,kappa,standard,0.0,,False,
+binary,0.3,DT,kappa,minmax,0.0,,False,
+binary,0.3,DT,kappa,robust,0.0,,False,
+binary,0.3,DT,roc_auc_ovr,standard,0.0,,False,
+binary,0.3,DT,roc_auc_ovr,minmax,0.0,,False,
+binary,0.3,DT,roc_auc_ovr,robust,0.0,,False,
+binary,0.3,Hybrid KNN-SVM,accuracy,minmax,-0.0038888888888889417,0.1771710655658107,False,-3.499999999999975
+binary,0.3,Hybrid KNN-SVM,accuracy,standard,-0.004722222222222294,0.18210600371149435,False,-3.400000000000064
+binary,0.3,Hybrid KNN-SVM,accuracy,robust,-0.004166666666666652,0.20483276469913345,False,-3.0
+binary,0.3,Hybrid KNN-SVM,f1_weighted,minmax,-0.0039579446081308145,0.17617676848918024,False,-3.5208081192163436
+binary,0.3,Hybrid KNN-SVM,f1_weighted,standard,-0.004808166334012043,0.18139091475258626,False,-3.414162227069632
+binary,0.3,Hybrid KNN-SVM,f1_weighted,robust,-0.00424141980729531,0.20399845833075517,False,-3.0131569890250582
+binary,0.3,Hybrid KNN-SVM,kappa,minmax,-0.010665483926737607,0.17529003962178713,False,-3.53955910434348
+binary,0.3,Hybrid KNN-SVM,kappa,standard,-0.012961076571467278,0.1807510435530236,False,-3.4269271802273336
+binary,0.3,Hybrid KNN-SVM,kappa,robust,-0.011431040636365464,0.20324925842838246,False,-3.025060715521659
+binary,0.3,Hybrid KNN-SVM,roc_auc_ovr,minmax,-0.00012682380818351824,0.8418372163327903,False,-0.2536824877250805
+binary,0.3,Hybrid KNN-SVM,roc_auc_ovr,robust,-0.00014482460676434883,0.8863585287666458,False,-0.18042813455653897
+binary,0.3,Hybrid KNN-SVM,roc_auc_ovr,standard,-0.00010391370089868346,0.9020612180282789,False,-0.15506715506707616
+binary,0.3,Hybrid SVM-DT,accuracy,standard,-0.0011111111111110628,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,accuracy,minmax,-0.0008333333333332416,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,accuracy,robust,-0.0011111111111110628,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,f1_weighted,standard,-0.0011294929850300672,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,f1_weighted,minmax,-0.0008432288553674727,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,f1_weighted,robust,-0.0011294929850300672,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,kappa,standard,-0.0030413059606119175,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,kappa,minmax,-0.0022608012148929157,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,kappa,robust,-0.0030413059606119175,0.5000000000000001,False,-1.0
+binary,0.3,Hybrid SVM-DT,roc_auc_ovr,standard,-0.000269193760596087,0.45445689231473285,False,-1.1543859649127586
+binary,0.3,Hybrid SVM-DT,roc_auc_ovr,minmax,-9.982261031227235e-05,0.5051756564748298,False,-0.9838709677429768
+binary,0.3,Hybrid SVM-DT,roc_auc_ovr,robust,-0.0002880127772941776,0.5618344314989913,False,-0.8224299065421272
+binary,0.3,KNN,accuracy,minmax,-0.009444444444444366,0.0,True,-inf
+binary,0.3,KNN,accuracy,standard,-0.010277777777777719,0.017201752210865565,True,-37.0000000000016
+binary,0.3,KNN,accuracy,robust,-0.010000000000000009,0.03533144577627103,True,-17.9999999999991
+binary,0.3,KNN,f1_weighted,minmax,-0.009737434144356572,0.0017212322775803039,True,-369.8618887317245
+binary,0.3,KNN,f1_weighted,standard,-0.010601804833047068,0.018910814836868496,True,-33.6544203945823
+binary,0.3,KNN,f1_weighted,robust,-0.010313367092795067,0.03389380204809641,True,-18.765028273523743
+binary,0.3,KNN,kappa,minmax,-0.02651086227010435,0.0031335879965545925,True,-203.1583704198436
+binary,0.3,KNN,kappa,standard,-0.02887371913660519,0.02029081475367431,True,-31.364151262016566
+binary,0.3,KNN,kappa,robust,-0.02808479799752983,0.032690851866590806,True,-19.456822687130902
+binary,0.3,KNN,roc_auc_ovr,standard,-0.0003681981527907663,0.18164635052616507,False,-3.4090909090901147
+binary,0.3,KNN,roc_auc_ovr,minmax,-0.0010014989755909864,0.2710114506441208,False,-2.2054054054055943
+binary,0.3,KNN,roc_auc_ovr,robust,-0.000807172172729187,0.3527942390183323,False,-1.615888615889216
+binary,0.3,SVM,accuracy,minmax,-0.0033333333333331883,0.0,True,-inf
+binary,0.3,SVM,accuracy,standard,-0.0019444444444443043,0.39486308657749664,False,-1.399999999999984
+binary,0.3,SVM,accuracy,robust,-0.0022222222222221255,0.40966552939826945,False,-1.3333333333333222
+binary,0.3,SVM,f1_weighted,minmax,-0.003359708726252464,0.00040947332990143336,True,-1554.7280813865223
+binary,0.3,SVM,f1_weighted,standard,-0.0019664246665107576,0.39196700969328296,False,-1.4135518776784053
+binary,0.3,SVM,f1_weighted,robust,-0.0022485243708320057,0.40727229799597314,False,-1.3438284300361387
+binary,0.3,SVM,kappa,minmax,-0.008973925726625809,0.0007822662134527,True,-813.8143268982988
+binary,0.3,SVM,kappa,standard,-0.005268757153389703,0.38928746214028287,False,-1.4262466774557772
+binary,0.3,SVM,kappa,robust,-0.006027534607667695,0.405062380159949,False,-1.353614238738044
+binary,0.3,SVM,roc_auc_ovr,minmax,-0.00017673511333970993,0.3619339681617393,False,-1.5652173913053098
+binary,0.3,SVM,roc_auc_ovr,standard,-0.00020864561991484898,0.476719415948378,False,-1.0759493670894411
+binary,0.3,SVM,roc_auc_ovr,robust,-0.00018737194886475628,0.6641196055795267,False,-0.5826972010183704
+binary,0.3,XGBoost,accuracy,standard,0.0,,False,
+binary,0.3,XGBoost,accuracy,minmax,0.0,,False,
+binary,0.3,XGBoost,accuracy,robust,0.0,,False,
+binary,0.3,XGBoost,f1_weighted,standard,0.0,,False,
+binary,0.3,XGBoost,f1_weighted,minmax,0.0,,False,
+binary,0.3,XGBoost,f1_weighted,robust,0.0,,False,
+binary,0.3,XGBoost,kappa,standard,0.0,,False,
+binary,0.3,XGBoost,kappa,minmax,0.0,,False,
+binary,0.3,XGBoost,kappa,robust,0.0,,False,
+binary,0.3,XGBoost,roc_auc_ovr,standard,0.0,,False,
+binary,0.3,XGBoost,roc_auc_ovr,minmax,0.0,,False,
+binary,0.3,XGBoost,roc_auc_ovr,robust,0.0,,False,
+multi_class,0.3,DT,accuracy,standard,0.0,,False,
+multi_class,0.3,DT,accuracy,minmax,0.0,,False,
+multi_class,0.3,DT,accuracy,robust,0.0,,False,
+multi_class,0.3,DT,f1_weighted,standard,0.0,,False,
+multi_class,0.3,DT,f1_weighted,minmax,0.0,,False,
+multi_class,0.3,DT,f1_weighted,robust,0.0,,False,
+multi_class,0.3,DT,kappa,standard,0.0,,False,
+multi_class,0.3,DT,kappa,minmax,0.0,,False,
+multi_class,0.3,DT,kappa,robust,0.0,,False,
+multi_class,0.3,DT,roc_auc_ovr,standard,0.0,,False,
+multi_class,0.3,DT,roc_auc_ovr,minmax,0.0,,False,
+multi_class,0.3,DT,roc_auc_ovr,robust,0.0,,False,
+multi_class,0.3,Hybrid KNN-SVM,accuracy,minmax,0.0009259259259259967,0.5000000000000001,False,1.0
+multi_class,0.3,Hybrid KNN-SVM,accuracy,standard,-0.0007407407407407085,0.7048327646991527,False,-0.49999999999996253
+multi_class,0.3,Hybrid KNN-SVM,accuracy,robust,-0.0005555555555555314,0.7951672353008793,False,-0.3333333333333111
+multi_class,0.3,Hybrid KNN-SVM,f1_weighted,minmax,0.0010442554104898027,0.5383591479898086,False,0.8862098016002008
+multi_class,0.3,Hybrid KNN-SVM,f1_weighted,standard,-0.0007018185220067918,0.7397227763982429,False,-0.43325574730876515
+multi_class,0.3,Hybrid KNN-SVM,f1_weighted,robust,-0.0005130183629634688,0.8269540916399627,False,-0.2787183961893677
+multi_class,0.3,Hybrid KNN-SVM,kappa,minmax,0.0011365043030162614,0.5028498350926844,False,0.9910868194177163
+multi_class,0.3,Hybrid KNN-SVM,kappa,standard,-0.0009244978149329786,0.7009354720689893,False,-0.5076759074636591
+multi_class,0.3,Hybrid KNN-SVM,kappa,robust,-0.0006989246360291634,0.7919306992139683,False,-0.3389917922780447
+multi_class,0.3,Hybrid KNN-SVM,roc_auc_ovr,standard,0.0003119200666813482,0.1715677862656378,False,3.62033133026459
+multi_class,0.3,Hybrid KNN-SVM,roc_auc_ovr,minmax,0.0004209081749099175,0.21251130365486046,False,2.8835922748295024
+multi_class,0.3,Hybrid KNN-SVM,roc_auc_ovr,robust,0.0002817866844188055,0.24605620765916403,False,2.4571577623159113
+multi_class,0.3,Hybrid SVM-DT,accuracy,minmax,-0.006296296296296244,0.11119977557157107,False,-5.666666666666633
+multi_class,0.3,Hybrid SVM-DT,accuracy,standard,-0.004074074074074008,0.22203451690999906,False,-2.7500000000000093
+multi_class,0.3,Hybrid SVM-DT,accuracy,robust,-0.0037037037037036535,0.24223788318168515,False,-2.5000000000000187
+multi_class,0.3,Hybrid SVM-DT,f1_weighted,minmax,-0.006450627171827872,0.11401570161628306,False,-5.5237883884996135
+multi_class,0.3,Hybrid SVM-DT,f1_weighted,standard,-0.0041271530138140555,0.2284198411298632,False,-2.666420294239696
+multi_class,0.3,Hybrid SVM-DT,f1_weighted,robust,-0.0037795957394524127,0.24249337091335477,False,-2.4970933519473353
+multi_class,0.3,Hybrid SVM-DT,kappa,minmax,-0.007926541659023512,0.11188879597354094,False,-5.631048591374203
+multi_class,0.3,Hybrid SVM-DT,kappa,standard,-0.005116377302073705,0.22262673138948094,False,-2.7420550709724347
+multi_class,0.3,Hybrid SVM-DT,kappa,robust,-0.0046431856938968785,0.24308243131068713,False,-2.490413842216086
+multi_class,0.3,Hybrid SVM-DT,roc_auc_ovr,standard,0.0006915598340371254,0.565162329895407,False,0.8137040903466649
+multi_class,0.3,Hybrid SVM-DT,roc_auc_ovr,robust,0.0006793235143806031,0.5721564825538693,False,0.7956045309358095
+multi_class,0.3,Hybrid SVM-DT,roc_auc_ovr,minmax,0.0006197145883554134,0.6041341001400888,False,0.716667292655109
+multi_class,0.3,KNN,accuracy,standard,-0.007407407407407418,0.03180450251235132,True,-20.0000000000009
+multi_class,0.3,KNN,accuracy,minmax,-0.009629629629629655,0.0731327183908675,False,-8.666666666666583
+multi_class,0.3,KNN,accuracy,robust,-0.008518518518518592,0.0825711996796949,False,-7.666666666666633
+multi_class,0.3,KNN,f1_weighted,standard,-0.008591111139800711,0.003165992732540415,True,-201.07895937921182
+multi_class,0.3,KNN,f1_weighted,minmax,-0.010803940844001048,0.04268989131749499,True,-14.890299462511159
+multi_class,0.3,KNN,f1_weighted,robust,-0.009786556091895715,0.048927832872339434,True,-12.985774780864613
+multi_class,0.3,KNN,kappa,standard,-0.009662477996660424,0.022074963002750882,True,-28.82743676898012
+multi_class,0.3,KNN,kappa,minmax,-0.012467366066467478,0.06499350522436134,False,-9.761074880525976
+multi_class,0.3,KNN,kappa,robust,-0.011059137042701006,0.07379426264651621,False,-8.588281613453063
+multi_class,0.3,KNN,roc_auc_ovr,standard,-0.001322825100205094,0.33058235391094315,False,-1.749466176299258
+multi_class,0.3,KNN,roc_auc_ovr,robust,-0.00014083591056890388,0.9334143244904802,False,-0.10497561097930866
+multi_class,0.3,KNN,roc_auc_ovr,minmax,-7.755065248260529e-05,0.9649528921904865,False,-0.05510755109906362
+multi_class,0.3,SVM,accuracy,minmax,-0.001296296296296351,0.6392089745461235,False,-0.6363636363636462
+multi_class,0.3,SVM,accuracy,robust,0.00018518518518517713,0.8743340836219978,False,0.2
+multi_class,0.3,SVM,accuracy,standard,0.00018518518518528815,0.9096655293982442,False,0.14285714285717957
+multi_class,0.3,SVM,f1_weighted,minmax,-0.0012902873573914508,0.6640151631717903,False,-0.5829169832980382
+multi_class,0.3,SVM,f1_weighted,robust,0.0001916079845424301,0.8836622499450825,False,0.1848046874514583
+multi_class,0.3,SVM,f1_weighted,standard,0.00016436758203197677,0.9267655091764443,False,0.11554661050127842
+multi_class,0.3,SVM,kappa,minmax,-0.0016399939891591497,0.6385967544573616,False,-0.6377155750514663
+multi_class,0.3,SVM,kappa,robust,0.00023647707324503386,0.8728896057091906,False,0.20236081520371102
+multi_class,0.3,SVM,kappa,standard,0.00022724919902616936,0.911893739449271,False,0.13928741913047754
+multi_class,0.3,SVM,roc_auc_ovr,standard,0.0005469663561107341,0.23064155672557637,False,2.6383790379705765
+multi_class,0.3,SVM,roc_auc_ovr,robust,0.0005400890273901116,0.2435757251499538,False,2.4848438931639336
+multi_class,0.3,SVM,roc_auc_ovr,minmax,0.0005477407354906871,0.3129275332476697,False,1.8678500493984296
+multi_class,0.3,XGBoost,accuracy,minmax,0.0020370370370370594,0.27159949756017066,False,2.20000000000012
+multi_class,0.3,XGBoost,accuracy,standard,0.0,,False,
+multi_class,0.3,XGBoost,accuracy,robust,0.0,,False,
+multi_class,0.3,XGBoost,f1_weighted,minmax,0.0021480082185493243,0.26994487015271795,False,2.215265967599089
+multi_class,0.3,XGBoost,f1_weighted,standard,0.0,,False,
+multi_class,0.3,XGBoost,f1_weighted,robust,0.0,,False,
+multi_class,0.3,XGBoost,kappa,minmax,0.0025492259203947487,0.27518877351360294,False,2.1674770135813937
+multi_class,0.3,XGBoost,kappa,standard,0.0,,False,
+multi_class,0.3,XGBoost,kappa,robust,0.0,,False,
+multi_class,0.3,XGBoost,roc_auc_ovr,minmax,8.5569473507352e-05,0.760276056793725,False,0.39542649062940627
+multi_class,0.3,XGBoost,roc_auc_ovr,standard,0.0,,False,
+multi_class,0.3,XGBoost,roc_auc_ovr,robust,0.0,,False,

@@ -1,0 +1,58 @@
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Warning: xgboost is not installed, skipping XGBoost model.
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\Jibunnokoto\Master Course - BK\Lu\u1eadn v\u0103n t\u1ed1t nghi\u1ec7p\Thay X\sdn_qos_sim\simulate_sdn_qos.py", line 310, in <module>
+    main()
+  File "C:\Users\HP\Desktop\Jibunnokoto\Master Course - BK\Lu\u1eadn v\u0103n t\u1ed1t nghi\u1ec7p\Thay X\sdn_qos_sim\simulate_sdn_qos.py", line 301, in main
+    run_df = run_experiment(output_dir, repeats=args.repeats, test_sizes=test_sizes)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\Jibunnokoto\Master Course - BK\Lu\u1eadn v\u0103n t\u1ed1t nghi\u1ec7p\Thay X\sdn_qos_sim\simulate_sdn_qos.py", line 168, in run_experiment
+    metrics = evaluate_model(estimator, X_train, y_train, X_test, y_test)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\Jibunnokoto\Master Course - BK\Lu\u1eadn v\u0103n t\u1ed1t nghi\u1ec7p\Thay X\sdn_qos_sim\simulate_sdn_qos.py", line 124, in evaluate_model
+    y_pred = model.predict(X_test)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\pipeline.py", line 746, in predict
+    return self.steps[-1][1].predict(Xt, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\ensemble\_voting.py", line 422, in predict
+    maj = np.argmax(self.predict_proba(X), axis=1)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\ensemble\_voting.py", line 463, in predict_proba
+    self._collect_probas(X), axis=0, weights=self._weights_not_none
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\ensemble\_voting.py", line 438, in _collect_probas
+    return np.asarray([clf.predict_proba(X) for clf in self.estimators_])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\ensemble\_voting.py", line 438, in <listcomp>
+    return np.asarray([clf.predict_proba(X) for clf in self.estimators_])
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\svm\_base.py", line 881, in predict_proba
+    return pred_proba(X)
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\sklearn\svm\_base.py", line 921, in _dense_predict_proba
+    pprob = libsvm.predict_proba(
+            ^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
